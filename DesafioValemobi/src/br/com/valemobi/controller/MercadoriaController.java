@@ -20,6 +20,7 @@ public class MercadoriaController {
 
 	@RequestMapping("novaMercadoria")
 	public String novaMercadoria() {
+		System.out.println("seila");
 		return "mercadoria/criarMercadoria";
 	}
 
