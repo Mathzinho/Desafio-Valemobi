@@ -1,0 +1,199 @@
+
+body{
+    background-image: url(../img/claudio.png);
+    margin:0px;
+    
+}
+
+a{
+	text-decoration: none;
+	color: steelblue;
+}
+
+/* ================================================================================ */
+
+header{
+    width: 100%;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    /**/
+    background: #feffff; 
+    background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 55%, #a0d8ef 100%);  
+    background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 55%,#a0d8ef 100%); 
+    background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 55%,#a0d8ef 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#cab_1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+
+}
+
+#subcab_1{
+    width: 100%;
+    height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#subcab_1_titulo{
+    width: 280px;
+    height: 35px;
+    color: steelblue;
+    font-family: Arial Black;
+    font-size: 29px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 15px;
+    left: 42%;
+}
+
+#subcab_1_titulo:hover{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#linha{
+    width: 100%;
+    height: 1px;
+    background-color: steelblue;
+    
+}
+
+#subcab_2{
+    width: 100%;
+    height: 26.5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.subcab_2_botao{
+    width: 24.17%;
+    height: 99%;
+    float: left;
+    margin-left: 10px;
+    color: steelblue;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial Black;
+    
+}
+
+.subcab_2_botao:hover{
+background: #feffff; 
+background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); 
+background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); 
+background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); 
+cursor: pointer;
+    border-bottom: 1px solid steelblue;
+    border-left: 1px solid steelblue;
+    border-right: 1px solid steelblue;
+    width: 24.04%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.12);
+    font-size: 21px;
+}
+
+/* ================================================================================ */
+
+section{
+    width: 55%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border-radius: 8px;
+    /**/
+    background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 55%, #a0d8ef 100%); 
+    background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 55%,#a0d8ef 100%); 
+    background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 55%,#a0d8ef 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 50px;
+}
+
+article{
+    width: 40%;
+    height: 100%;
+    border-radius: 5px;
+    float: left;
+    margin-left: 68px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.art_img{
+    width: 75%;
+    height: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.art_bt{
+    width: 55%;
+    height: 4.2%;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 4.5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial Black;
+    color: steelblue;
+    /**/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 55%, #a0d8ef 100%); 
+    background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 55%,#a0d8ef 100%); 
+    background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 55%,#a0d8ef 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.art_bt:hover{
+    cursor: pointer;
+}
+
+.art_txt{
+
+    width: 350px;
+    height: 30%;
+    padding: 10px;
+    font-family: Arial Black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    color: steelblue;
+}
+
+/* ================================================================================ */
+
+footer{
+    width: 70%;
+    height: 100px;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 89.7%;
+    left: 15%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* ================================================================================ */
