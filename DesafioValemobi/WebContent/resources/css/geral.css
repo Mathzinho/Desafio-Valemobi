@@ -1,13 +1,11 @@
 
 body{
-    background-image: url(../img/claudio.png);
-    margin:0px;
-    
-}
-
-a{
-	text-decoration: none;
-	color: steelblue;
+    background-image: url(claudio.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    overflow: hidden;
 }
 
 /* ================================================================================ */
@@ -182,18 +180,126 @@ img{
     color: steelblue;
 }
 
+#formulario{
+    width: 40%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+label{
+    font-size: 22px;
+    font-family: Arial;
+    color: steelblue;
+}
+
+.campo_txt{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 30px;
+    border:1px solid steelblue;
+    border-radius:3px;
+    font-size: 18px;
+    text-align: left;
+    padding: 6px;
+    font-family: Arial;
+
+}
+
+.campo_num{
+    width: 200px;
+    height: 35px;
+    margin-bottom: 30px;
+    border:1px solid steelblue;
+    border-radius:3px;
+    font-size: 18px;
+    text-align: left;
+    font-family: Arial;
+    padding: 6px;
+}
+
+.select_txt{
+    width: 200px;
+    height: 35px;
+    border:1px solid steelblue;
+    border-radius:3px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: left;
+    padding: 6px;
+}
+
+.campo_bt{
+    width: 200px;
+    margin-right: 9px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 18px;
+    color: steelblue;
+    border: 0px;
+     /**/
+    background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 55%, #a0d8ef 100%); 
+    background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 55%,#a0d8ef 100%); 
+    background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 55%,#a0d8ef 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); 
+}
+
+.campo_bt:hover{
+    cursor: pointer;
+    border:1px solid steelblue;
+}
+
 /* ================================================================================ */
 
 footer{
     width: 70%;
     height: 100px;
-    background-color: blue;
+
     margin-left: auto;
     margin-right: auto;
     position: fixed;
     top: 89.7%;
     left: 15%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+#rod_1{
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#subRod_1{
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.subRod_1_bt{
+    width: 260px;
+    height: 35px;
+
+    float: left;
+    padding-top: 15px;
+    text-align: center;
+    margin-right: 26.7px;
+    font-family: Arial black;
+    color: steelblue;
+}
+
+#subRod_2{
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: steelblue;
+    font-family: Arial;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 38px;
+}
 /* ================================================================================ */
