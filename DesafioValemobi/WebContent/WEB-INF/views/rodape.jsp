@@ -4,9 +4,9 @@
 
 		<div id="subRod_1">
 
-			<div class="subRod_1_bt">Segurança</div>
-			<div class="subRod_1_bt">Privacidade</div>
-			<div class="subRod_1_bt">Feedback</div>
+			<a href="principal"><div class="subRod_1_bt">Segurança</div></a>
+			<a href="principal"><div class="subRod_1_bt">Privacidade</div></a>
+			<a href="principal"><div class="subRod_1_bt">Feedback</div></a>
 
 		</div>
 		<div id="subRod_2">© COPYRIGHT 2016 - ALGUMA COISA LTDA, TODOS

@@ -17,17 +17,21 @@ public class MercadoriaController {
 	public MercadoriaController(MercadoriaDao daoMerc) {
 		this.daoMerc = daoMerc;
 	}
+	
+	@RequestMapping("principal")
+	public String principal(){
+		return "redirect:index.jsp";
+	}
 
 	@RequestMapping("novaMercadoria")
 	public String novaMercadoria() {
-		System.out.println("seila");
 		return "mercadoria/criarMercadoria";
 	}
 
 	@RequestMapping("adicionarMercadoria")
 	public String adicionarMercadoria(Mercadoria mercadoria) {
 		daoMerc.adicionarMercadoria(mercadoria);
-		return "algumacoisa/outracoisa";
+		return "redirect:listarMercadoria";
 	}
 
 	@RequestMapping("listarMercadoria")

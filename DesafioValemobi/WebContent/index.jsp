@@ -19,7 +19,7 @@
 		<div class="art_img">
 			<img src="resources/img/merc.jpg" alt="#">
 		</div>
-		<div class="art_bt">Nova Mercadoria</div>
+		<a href="novaMercadoria"><div class="art_bt">Nova Mercadoria</div></a>
 		<div class="art_txt">Lorem ipsum dolor sit amet, consectetur
 			adipiscing elit. Proin nec massa ut tellus ultrices iaculis quis at
 			ex. Sed pulvinar sed mi at cursus. Quisque a tempor odio. Nulla neque
@@ -32,7 +32,7 @@
 		<div class="art_img">
 			<img src="resources/img/list.jpg" alt="#">
 		</div>
-		<div class="art_bt">Lista de Mercadorias</div>
+		<a href="listarMercadoria"><div class="art_bt">Lista de Mercadorias</div></a>
 		<div class="art_txt">Aenean accumsan massa eu nibh tincidunt, id
 			mattis mauris porttitor. Aliquam purus purus, tincidunt sit amet
 			posuere sed, pharetra id dui. Vestibulum auctor blandit sem, sit amet
