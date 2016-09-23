@@ -22,7 +22,7 @@
 
 	<bean id="mysqlDataSource" class="org.apache.commons.dbcp2.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mysql://localhost/teste"></property>
+		<property name="url" value="jdbc:mysql://192.168.1.7/teste"></property>
 		<property name="username" value="root"></property>
 		<property name="password" value="root"></property>
 
